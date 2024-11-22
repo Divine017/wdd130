@@ -1,12 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
     --text-align: center;
     --text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -23,7 +24,6 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
-    text-decoration: var(--text-decoration);
 }
 
 main {
@@ -45,7 +45,7 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-ul a {
+a {
     text-decoration: var(--text-decoration);
 }
 
