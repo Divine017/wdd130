@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header img {
+    float: left;
+    margin: 0 auto;
+}
+
+.nav {
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+main {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.banner-box {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner-box {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents line breaks */
+}
+
+.banner {
+    display: inline-block; /* Needed to prevent line breaks */
+    float: left;
+    width: 300px; /* Adjust the width as needed */
+    margin: 10px; /* Adds some space between banners */
+    box-sizing: border-box;
+    text-align: center; /* Centers the text within each banner */
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Adds a border to each image */
+}
+
+.product-box {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.product {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(13, 0, 255);
+    float: left;
+    width: 250px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.product p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+    border: 0.5rem solid #807878;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial;
+    text-align: center;
+}
+.footer {
+    margin: 2rem;
+    display: inline-block;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.959);
+}
+
+.social-media {
+    position: relative;
+    top: -2rem;
+}
