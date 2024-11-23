@@ -38,6 +38,7 @@ main {
 
 .banner-box {
     width: 100%;
+    max-width: 1150px;
     overflow-x: auto; /* Enables horizontal scrolling */
     white-space: nowrap; /* Prevents line breaks */
 }
@@ -99,4 +100,8 @@ footer {
 .social-media {
     position: relative;
     top: -2rem;
+}
+
+a {
+    text-decoration: none;
 }
