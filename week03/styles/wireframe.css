@@ -44,7 +44,6 @@ main {
 }
 
 .banner {
-    display: inline-block; /* Needed to prevent line breaks */
     float: left;
     width: 300px; /* Adjust the width as needed */
     margin: 10px; /* Adds some space between banners */
