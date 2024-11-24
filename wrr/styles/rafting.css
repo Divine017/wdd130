@@ -1,6 +1,6 @@
-
+/* 
 header nav {
-    /* display: inline-block; */
+    /* display: inline-block;
     font-family: "Josefin Sans", serif;
     color: #291B5E;
     padding: 5px;
@@ -38,10 +38,10 @@ header {
     font-family: "Josefin Sans", serif;
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
-    /* text-align: center;
+    text-align: center;
     width: 98%;
-    margin: 5px; */
-    padding: 0.5rem;
+    margin: 5px;
+    padding: 1rem;
     
 }
 
@@ -60,15 +60,15 @@ header {
     background-color: rgba(0, 0, 255, 0.300);
     font-family: "Roboto", serif;
     color: white;
-    /* text-align: center;
-    margin: 1rem; */
+    text-align: center;
+    margin: 1rem;
     padding: 1rem;
     max-width: 50%;
     box-sizing: border-box;
 }
 
 .hero article img{
-    /* width: 200px; */
+    width: 200px;
     float: right;
     margin: 0 0 10px 10px;
 }
@@ -83,4 +83,100 @@ footer {
 
 .sociallinks img {
     width: 30px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    position: relative;
+    width: 100%; height: auto;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+} .banner h1, .banner p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Background for better readability */
+    padding: 10px;
+}
+.banner h1 {
+    top: 20%;
+    font-size: 3em;
+}
+.banner p {
+    top: 40%;
+    font-size: 1.2em;
+}
+
+.history,
+.adventure {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    overflow: hidden; /* Clear floats */
+}
+
+.image-item {
+    width: 30%; /* Adjust as needed */
+    float: left;
+    margin: 1.66%; /* Adjust as needed */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Adds a border to each image */
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media a img {
+    width: 50px;
 }
