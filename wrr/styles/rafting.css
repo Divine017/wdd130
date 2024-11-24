@@ -1,15 +1,23 @@
 
-
-:root {
-
+header nav {
+    display: inline-block;
 }
 
-header nav a {
+header {
     font-family: "Josefin Sans", serif;
     color: #291B5E;
     padding: 5px;
     text-decoration: none;
+    text-align: center;
+    overflow: hidden;
 }
+
+.header img {
+    float: left;
+    left: 0;
+}
+
+
 .hero {
     position: relative;
 }
