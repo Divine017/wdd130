@@ -1,3 +1,65 @@
-a {
+
+
+:root {
+
+}
+
+header nav a {
+    font-family: "Josefin Sans", serif;
+    color: #291B5E;
+    padding: 5px;
     text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    font-family: "Josefin Sans", serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.400);
+    text-align: center;
+    width: 98%;
+    margin: 5px;
+    padding: 0.5rem;
+    top: 10px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.over-text {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.300);
+    font-family: "Roboto", serif;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    padding: 1rem;
+    top: 300px;
+}
+
+.over-text img{
+    width: 200px;
+    float: right;
+}
+
+footer {
+    background-color: #F17912;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.1rem;
+}
+
+.sociallinks img {
+    width: 30px;
 }
