@@ -1,37 +1,48 @@
 
 header nav {
-    display: inline-block;
-}
-
-header {
+    /* display: inline-block; */
     font-family: "Josefin Sans", serif;
     color: #291B5E;
     padding: 5px;
     text-decoration: none;
     text-align: center;
+    top: -5rem;
+}
+
+header {
+    
     overflow: hidden;
+    top: -5rem;
 }
 
 .header img {
     float: left;
-    left: 0;
+    margin: 12rem
 }
 
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
-h1 {
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
     position: absolute;
+    top: 20px;
+    left: 20px;
     font-family: "Josefin Sans", serif;
     color: white;
     background-color: rgba(0, 0, 0, 0.400);
-    text-align: center;
+    /* text-align: center;
     width: 98%;
-    margin: 5px;
+    margin: 5px; */
     padding: 0.5rem;
-    top: 10px;
+    
 }
 
 .hero img {
@@ -42,22 +53,24 @@ h1 {
     padding: 1rem;
 }
 
-.over-text {
+.hero article {
     position: absolute;
+    bottom: 20px;
+    left: 20px;
     background-color: rgba(0, 0, 255, 0.300);
     font-family: "Roboto", serif;
     color: white;
-    text-align: center;
-    margin: 1rem;
+    /* text-align: center;
+    margin: 1rem; */
     padding: 1rem;
-    width: 50%;
-    padding: 1rem;
-    top: 300px;
+    max-width: 50%;
+    box-sizing: border-box;
 }
 
-.over-text img{
-    width: 200px;
+.hero article img{
+    /* width: 200px; */
     float: right;
+    margin: 0 0 10px 10px;
 }
 
 footer {
