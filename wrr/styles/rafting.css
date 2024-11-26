@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif, serif;
     margin: 0;
     padding: 0;
 }
@@ -35,11 +35,14 @@ nav ul li a {
     width: 100%; height: auto;
     text-align: center;
 }
+
 .banner img {
     width: 100%;
     height: auto;
     display: block;
-} .banner h1, .banner p {
+}
+
+.banner h1, .banner p {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -47,10 +50,12 @@ nav ul li a {
     background-color: rgba(0, 0, 0, 0.5); /* Background for better readability */
     padding: 10px;
 }
+
 .banner h1 {
     top: 20%;
     font-size: 3em;
 }
+
 .banner p {
     top: 40%;
     font-size: 1.2em;
