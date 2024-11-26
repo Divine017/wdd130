@@ -37,6 +37,7 @@ header {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 40px;
 }
 .white-water {
     width: 99%;
@@ -54,35 +55,21 @@ header {
     max-width: 100%;
 }
 
-.banner {
-    position: relative;
-    width: 100%; height: auto;
+div article {
+    font-family: "Roboto";
+    font-weight: 600;
+    color: var(--accent-color-1);
     text-align: center;
-}
-
-.banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.banner h1, .banner p {
+    background-color: #0592ce6f;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Background for better readability */
-    padding: 10px;
+    top: 40rem;
+    left: 8rem;
+    width: 80%;
 }
 
-.banner h1 {
-    top: 20%;
-    font-size: 3em;
-}
-
-.banner p {
-    top: 40%;
-    font-size: 1.2em;
+article img {
+    float: right;
+    margin: 1rem;
 }
 
 .history,
