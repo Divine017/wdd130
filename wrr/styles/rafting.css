@@ -38,6 +38,22 @@ header {
     width: 100%;
     height: auto;
 }
+.white-water {
+    width: 98%;
+    position: absolute;
+    top: 15rem;
+    
+}
+
+.white-water h1 {
+    background-color: #f17a1280;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    color: var(--text-color);
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+}
 
 .banner {
     position: relative;
