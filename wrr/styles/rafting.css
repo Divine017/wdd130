@@ -7,10 +7,6 @@
     --text-color: #fff;
 }
 
-* {
-    margin: 0 10px;
-}
-
 header {
     background-color: var(--background-color);
     margin: 0 0 40px;
@@ -87,32 +83,39 @@ section h2 {
     font-weight: 500;
     text-align: center;
     background-color: var(--background-color);
-    margin-bottom: 40px;
+    margin: 0 20px 30px;
     padding: 1rem;
 }
 
 .image-container {
+    width: 100%;
+    max-width: 1150px;
     overflow: hidden;
+    margin:auto; 
 }
 
 .image-item {
-    width: 30%;
     float: left;
-    margin: 1.66%;
-    box-sizing: border-box;
+    width: 250px;
+    margin: 1rem;
     text-align: center;
 }
 
 .image-item img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #000; /* Adds a border to each image */
+    width: 250px;
+    height: 200px;
+}
+
+.image-container p {
+    font-family: "Roboto", serif;
+    margin: 0 0 20px;
 }
 
 footer {
     font-family: "Josefin Sans", serif;
     background-color: #d7d0d0;
     text-align: center;
+    margin: 0;
     padding: 10px;
 }
 
