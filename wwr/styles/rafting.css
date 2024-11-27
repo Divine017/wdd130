@@ -40,9 +40,10 @@ header {
     margin-bottom: 40px;
 }
 .white-water {
-    width: 95%;
+    width: 99%;
     position: absolute;
     top: 15rem;
+    margin: auto;
 }
 
 .white-water h1 {
