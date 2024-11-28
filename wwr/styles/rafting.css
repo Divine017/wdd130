@@ -109,6 +109,8 @@ section h2 {
 
 .image-container p {
     font-family: "Roboto", serif;
+    color: #291B5E;
+    font-weight: 500;
     margin: 0 0 20px;
 }
 
