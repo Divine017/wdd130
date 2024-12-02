@@ -9,29 +9,69 @@
 
 header {
     background-color: var(--background-color);
-    margin: 0 0 40px;
-    padding: 10px 0;
     font-family: "Josefin Sans", serif;;
-    text-align: center;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+    padding: 1rem;
 }
 
-.logo img {
-    display: block;
-    margin: 10px;
+header img {
+    margin: 1rem 5rem;
     width: 150px;
+    height: auto;
 }
 
-.links {
-    display: inline;
-    position: absolute;
-    top: 5rem;
-    left: 33%;
-}
-
-.links a {
-    margin: 20px;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+  }
+  
+.links-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.links-list li {
+    margin: 0 1rem;
+  }
+  
+.links-list a {
     text-decoration: none;
+    font-weight: 600;
+    color: #291B5E;
+  }
+  
+/* nav {
+    
+    text-align: right;
 }
+
+.links-list {
+    display: flex;
+	color: navy;
+    list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+.links-list li {
+    display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+    margin: 0 10px;
+}
+
+.links-list a:hover {
+    text-decoration: none;
+    color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+} */
 
 .hero img {
     display: block;
