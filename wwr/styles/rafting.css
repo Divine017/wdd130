@@ -25,7 +25,6 @@ header img {
 nav {
     display: flex;
     justify-content: flex-end;
-    align-items: right;
   }
   
 .links-list {
