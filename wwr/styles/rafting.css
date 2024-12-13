@@ -15,7 +15,7 @@
 	background-color: var(--background-color);
 	font-family: "Josefin Sans", serif;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 }
 
 header img {
