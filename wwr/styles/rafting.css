@@ -16,7 +16,6 @@
 	font-family: "Josefin Sans", serif;
 	display: flex;
 	flex-flow: row wrap;
-	padding: 1rem;
 }
 
 header img {
@@ -24,34 +23,8 @@ header img {
     width: 150px;
     height: auto;
 }
-
+  
 .link {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-.links-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-.links-list li {
-    margin: 0 1rem;
-  }
-  
-.links-list a {
-    text-decoration: none;
-    font-weight: 600;
-    color: #291B5E;
-  }
-  
-/* nav {
-    
-    text-align: right;
-}
-
-.links-list {
     display: flex;
 	color: navy;
     list-style: none;
@@ -72,7 +45,7 @@ header img {
     color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
-} */
+} 
 
 .hero img {
     display: block;
