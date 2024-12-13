@@ -7,13 +7,16 @@
     --text-color: #fff;
 }
 
-header {
-    background-color: var(--background-color);
-    font-family: "Josefin Sans", serif;;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-    padding: 1rem;
+* {
+	box-sizing: border-box;
+}
+
+.header-container {
+	background-color: var(--background-color);
+	font-family: "Josefin Sans", serif;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
 }
 
 header img {
@@ -22,13 +25,12 @@ header img {
     height: auto;
 }
 
-nav {
+.link {
     display: flex;
     justify-content: flex-end;
   }
   
 .links-list {
-    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
