@@ -6,60 +6,30 @@
 	--background-color: #d7d0d0;
 	--text-color: #fff;
 }
-header {
+
+* {
+	box-sizing: border-box;
+}
+
+.header-container {
 	background-color: var(--background-color);
-	font-family: "Josefin Sans", serif;;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	padding: 1rem;
+	font-family: "Josefin Sans", serif;
+	display: flex;
+	flex-flow: column wrap;
 }
 header img {
 	margin: 1rem 5rem;
 	width: 150px;
 	height: auto;
 }
-nav {
-	display: flex;
-	justify-content: flex-end;
-}
-.links-list {
-	display: flex;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.links-list li {
-	margin: 0 1rem;
-}
-.links-list a {
-	text-decoration: none;
-	font-weight: 600;
-	color: #291B5E;
-}
-/* nav {
-	text-align: right;
-}
-.links-list {
-	display: flex;
-color: navy;
-	list-style: none;
-	margin: 0;
-padding: 0;
-}
-.links-list li {
-	display: block;
-color: navy;
-padding: 20px;
-text-decoration: none;
-	margin: 0 10px;
-}
+
 .links-list a:hover {
 	text-decoration: none;
 	color: tomato;
-font-weight: 700;
-text-decoration: underline;
-} */
+	font-weight: 700;
+	text-decoration: underline;
+} 
+
 .hero img {
 	display: block;
 	width: 100%;
