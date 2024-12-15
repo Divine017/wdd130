@@ -24,6 +24,20 @@ h1 {
     text-align: center;
 }
 
+.form-item {
+    display:grid;
+    align-item: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
 form {
     width: 700px;
     margin: 0 auto;
@@ -83,6 +97,7 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
+    padding-top: 1rem;
     width: 700px;
     text-align: center;
     font-size: 0.90rem;
