@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: lightgreen;
+    background-color: darkgreen;
 }
 
 footer {
@@ -86,6 +86,6 @@ footer {
     width: 700px;
     font-size: 0.90rem;
     text-align: center;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
     border-top: 1.5px solid gray;  
 }
