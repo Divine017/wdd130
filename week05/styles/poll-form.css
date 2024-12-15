@@ -33,3 +33,16 @@ form {
     background-color: aliceblue;
     display: grid;
 }
+
+fieldset {
+    display: grid;
+    grip-gap: .5rem;
+    margin: 1rem;
+    border: 2px solid black;
+    padding: 1.5rem;
+}
+
+legend {
+    padding: 1.5rem;
+    font-size: 2rem;
+}
