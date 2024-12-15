@@ -24,7 +24,7 @@ h1 {
 }
 
 form {
-    width: 700px
+    width: 700px;
     margin: 0 auto;
     padding: 1rem;
     border: 2px solid rgb(80, 80, 80);
