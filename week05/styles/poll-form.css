@@ -84,8 +84,8 @@ button:hover {
 footer {
     margin: 1rem auto 0;
     width: 700px;
-    font-size: 0.90rem;
     text-align: center;
+    font-size: 0.90rem;
     color: rgb(0, 0, 0);
     border-top: 1.5px solid gray;  
 }
