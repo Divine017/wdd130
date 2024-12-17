@@ -39,7 +39,7 @@ h1 {
 
 .form-item {
     display:grid;
-    align-item: center;
+    align-items: center;
 }
 
 .column1 {
@@ -63,7 +63,7 @@ form {
 
 fieldset {
     display: grid;
-    grip-gap: .5rem;
+    grid-gap: .5rem;
     margin: 1rem;
     border: 2px solid black;
     padding: 1.5rem;
