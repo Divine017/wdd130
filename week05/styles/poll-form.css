@@ -18,19 +18,6 @@ header {
 
 h1 {
     margin: 1rem;
-    font-family: "Teko";
-    font-size: 2rem;
-    color: rgb(76, 0, 255);
-    background-color: lightgray;
-}
-
-header {
-    margin: 0 auto;
-    width: 700px;
-}
-
-h1 {
-    margin: 1rem;
     color: rgb(0, 0, 255);
     font-family: "Teko", "Roboto"; 
     font-size: 2rem;
@@ -39,12 +26,13 @@ h1 {
 
 .form-item {
     display:grid;
-    align-items: center;
+    
 }
 
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
+    align-content: center;
 }
 
 .column2 {
@@ -66,11 +54,11 @@ fieldset {
     grid-gap: .5rem;
     margin: 1rem;
     border: 2px solid black;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 legend {
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 2rem;
 }
 
@@ -79,12 +67,12 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: center;
+    text-align: right;
     padding-right: 1rem;
 }
 
 input, select, textarea {
-    padding: 2rem;
+    padding: .5rem;
     font-size: 1rem;
 }
 
@@ -101,8 +89,7 @@ button {
     border: none;
     border-radius: 0.5rem;
     padding: 0.80rem;
-    font-size: 1.5rem;
-    vertical-align: center;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -111,10 +98,10 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    padding-top: 1rem;
+    padding-top: 0.90rem;
     width: 700px;
     text-align: center;
-    font-size: 0.90rem;
+    font-size: 1rem;
     color: rgb(0, 0, 0);
     border-top: 1.5px solid gray;  
 }
