@@ -102,6 +102,21 @@ section h2 {
 	margin: 0 0 20px;
 }
 
+iframe {
+	border: 2px solid #000;
+	width: 100%;
+	height: 450px;
+}
+
+.employee-profiles {
+	display: flex;
+	justify-content: space-around;
+}
+
+.employee {
+	text-align: center;
+}
+
 .contact-form {
 	margin-top: 20px;
 }
