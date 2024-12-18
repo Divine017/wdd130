@@ -34,6 +34,10 @@ form {
     display: grid;
 }
 
+.question {
+    margin-bottom: 20px;
+}
+
 fieldset {
     display: grid;
     grid-gap: .5rem;
@@ -44,6 +48,19 @@ fieldset {
 
 label, input, button, select, textarea {
     color: black;
+}
+
+label { 
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] { 
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 input, select, textarea {
