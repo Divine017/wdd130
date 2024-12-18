@@ -24,21 +24,6 @@ h1 {
     text-align: center;
 }
 
-.form-item {
-    display:grid;
-    
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-    align-content: center;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-}
-
 form {
     width: 700px;
     margin: 0 auto;
@@ -57,11 +42,6 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
-    padding: 1rem;
-    font-size: 2rem;
-}
-
 label, input, button, select, textarea {
     color: black;
 }
@@ -72,8 +52,8 @@ label {
 }
 
 input, select, textarea {
-    padding: .5rem;
-    font-size: 1rem;
+    padding: .3rem;
+    font-size: .8rem;
 }
 
 input[type="checkbox"] {
