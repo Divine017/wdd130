@@ -53,7 +53,7 @@ label, input, button, select, textarea {
 label { 
     display: block;
     margin-bottom: 5px;
-    font-weight: medium;
+    font-weight: 600;
 }
 
 input[type="text"], select[name="question3"] { 
