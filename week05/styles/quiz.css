@@ -56,9 +56,16 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], select[name="question3"], textarea { 
+input[type="text"], select[name="question3"] { 
     width: 100%;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 100%;
+    padding: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
