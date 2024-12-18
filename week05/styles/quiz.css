@@ -46,20 +46,9 @@ label, input, button, select, textarea {
     color: black;
 }
 
-label {
-    text-align: right;
-    padding-right: 1rem;
-}
-
 input, select, textarea {
     padding: .3rem;
     font-size: .8rem;
-}
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
 }
 
 .container { 
