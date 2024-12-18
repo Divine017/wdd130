@@ -101,6 +101,43 @@ section h2 {
 	font-weight: 500;
 	margin: 0 0 20px;
 }
+
+.contact-form {
+	margin-top: 20px;
+}
+
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: auto;
+}
+
+.contact-form label {
+	margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+	margin-bottom: 15px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-form button {
+	padding: 10px;
+	margin: 0 0 1rem;
+	background-color: #007BFF;
+	color: #d7d0d0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: green;
+}
+
 footer {
 	font-family: "Josefin Sans", serif;
 	background-color: #d7d0d0;
