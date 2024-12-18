@@ -82,7 +82,14 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-button {
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    display: block;
+    width: 700px;
     margin: 1rem;
     background-color: navy;
     color: #fff;
