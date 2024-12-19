@@ -86,6 +86,7 @@ section h2 {
 	color: var(--accent-color-1);
 	text-align: center;
 }
+
 .history p {
 	font-family: "Roboto", serif;
 	font-weight: 500;
@@ -94,28 +95,84 @@ section h2 {
 	margin: 0 20px 30px;
 	padding: 1rem;
 }
+
 .image-container {
 	width: 100%;
 	max-width: 1150px;
 	overflow: hidden;
 	margin:auto; 
 }
+
 .image-item {
 	float: left;
 	width: 250px;
 	margin: 1rem;
 	text-align: center;
 }
+
 .image-item img {
 	width: 250px;
 	height: 200px;
 }
+
 .image-container p {
 	font-family: "Roboto", serif;
 	color: #291B5E;
 	font-weight: 500;
 	margin: 0 0 20px;
 }
+
+iframe {
+	border: none;
+	width: 100%;
+	height: 450px;
+}
+
+.employee-profiles {
+	display: flex;
+	justify-content: space-around;
+}
+
+.employee {
+	text-align: center;
+}
+
+.contact-form {
+	margin-top: 20px;
+}
+
+.contact-form form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: auto;
+}
+
+.contact-form label {
+	margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+	margin-bottom: 15px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.contact-form button {
+	padding: 10px;
+	margin: 0 0 1rem;
+	background-color: #007BFF;
+	color: #d7d0d0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: green;
+}
+
 footer {
 	font-family: "Josefin Sans", serif;
 	background-color: #d7d0d0;
@@ -123,17 +180,21 @@ footer {
 	margin: 0;
 	padding: 10px;
 }
+
 .social-media a {
 	margin: 0 10px;
 }
+
 .social-media a img {
 	width: 30px;
 }
+
 figure {
 	display: inline-block;
 	margin: 1rem;
 	text-align: center;
 }
+
 figcaption {
 	font-family: "Roboto", serif;
 	font-size: 1.3rem;
@@ -142,6 +203,7 @@ figcaption {
 	padding: 1rem;
 	background-color: #0592ce6f;
 }
+
 .social-media {
 	display: flex;
 	justify-content: flex-end;
