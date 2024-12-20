@@ -180,6 +180,7 @@
     font-size: 2em;
     margin: .5em;
     padding: 15px;
+	width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -189,6 +190,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+	width: 100%;
 }
 
 .center-content article {
@@ -196,6 +198,7 @@
     flex-direction: row;
     align-items: center;
     padding: 20px;
+	width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     max-width: 800px; 
 }
