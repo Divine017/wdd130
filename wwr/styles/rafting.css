@@ -31,6 +31,22 @@ body {
     padding: 10px;
     text-decoration: none;
 }
+
+.homepage header-1 { 
+    width: 99%;
+    position: absolute;
+    top: 22rem;
+    
+}
+
+.homepage header-1 h1 {
+    background-color: #d7d0d079;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    color: var(--text-color);
+    margin: 0 2rem;
+    padding: 8px;
+}
 	
 .header-container {
 	background-color: var(--background-color);
