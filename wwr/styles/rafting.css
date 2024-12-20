@@ -270,52 +270,6 @@ iframe {
     font-weight: bold;
 }
 
-.homepage-history {
-    display: flex;
-    align-items: center; /* Vertically center the items */
-    gap: 20px; /* Space between the image and text */
-    padding: 20px;
-}
-
-.image-container {
-    flex: 1; /* Allow the image to take up necessary space */
-}
-
-.image-container img {
-    width: 50%;
-    height: auto;
-}
-
-.history-aside {
-    flex: 2; /* Allow the text container to take up more space */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center the text content vertically */
-    height: 100%;
-}
-
-.history-aside h2 {
-    margin: 0 0 10px 0; /* Margin for spacing */
-}
-
-.history-aside p {
-    flex-grow: 1; /* Ensure the paragraph takes up remaining space */
-    margin: 0 0 20px 0; /* Margin for spacing */
-}
-
-.history-aside button {
-    align-self: center; /* Center the button horizontally */
-    padding: 10px 20px;
-    background-color: #6a5acd; /* Purple button background */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.history-aside button:hover {
-    background-color: #483d8b; /* Darker purple for hover effect */
-}
 
 .employee figcaption {
     margin-top: 10px;
