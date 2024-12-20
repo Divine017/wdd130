@@ -328,6 +328,7 @@ iframe {
 
 .employee figcaption {
     margin-top: 10px;
+	color: #007BFF;
     font-weight: bold;
 	background-color: var(--background-color);
 }
@@ -385,21 +386,6 @@ footer {
 
 .social-media a img {
 	width: 30px;
-}
-
-figure {
-	display: inline-block;
-	margin: 1rem;
-	text-align: center;
-}
-
-figcaption {
-	font-family: "Roboto", serif;
-	font-size: 1.3rem;
-	font-weight: 600;
-	color: #291B5E;
-	padding: 1rem;
-	background-color: #0592ce6f;
 }
 
 .social-media {
