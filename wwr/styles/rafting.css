@@ -32,27 +32,6 @@
     text-decoration: none;
 }
 
-.homepage header-1 { 
-    width: 99%;
-    position: absolute;
-    top: 50rem;
-    
-}
-
-.homepage header-1 h1 {
-    background-color: #d7d0d079;
-    font-family: "Josefin Sans", serif;
-    text-align: center;
-    color: var(--text-color);
-    margin: 0 2rem;
-    padding: 8px;
-}
-
-.homepage-hero img{
-    width: 100%;
-    margin: 0 2rem 1rem;
-}
-
 .homepage aside {
     position: absolute;
     top: 55rem;
@@ -138,6 +117,109 @@
 }
 
 .header-container {
+    background-color: #d8c8f4;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: .5rem;
+}
+
+.header-container div {
+    flex: 0;
+}
+
+.header-container img {
+    width: 100px;
+    height: auto;
+	margin-left: 5rem;
+}
+
+.header-container nav {
+    flex: 2;
+    text-align: center;
+}
+
+.header-container nav a {
+    margin: 0 40px;
+    text-decoration: none;
+	font-family: "Josefin Sans";
+    color: #291B5E;
+    font-weight: bold;
+}
+
+.header-container nav a:hover {
+    color: tomato;
+}
+
+/*.header-container {
+    padding: 10px 20px;
+    background-color: var(--background-color);
+	color: #291B5E;
+	font-family: "Josefin Sans", serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.links-list {
+    display: flex;
+	justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-list li {
+    margin-left: 20px;
+}
+
+.links-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .links-list {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .links-list li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .links-list a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* .header-container {
 	background-color: var(--background-color);
 	font-family: "Josefin Sans", serif;
 	display: flex;
@@ -150,12 +232,17 @@ header img {
 	height: auto;
 }
 
+.links-list {
+	display: flex;
+	flex-direction: row;
+}
+
 .links-list a:hover {
 	text-decoration: none;
 	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
-} 
+}  */
 
 .hero img {
 	display: block;
@@ -167,7 +254,7 @@ header img {
 .white-water {
 	width: 99%;
 	position: absolute;
-	top: 20rem;
+	top: 18rem;
 	margin: auto;
 }
 
