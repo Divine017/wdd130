@@ -20,7 +20,7 @@
     background-color: #d7d0d079;
     font-family: "Josefin Sans", serif, sans-serif;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: .5rem;
     padding: 10px;
     overflow: hidden;
     width: 100%;
@@ -212,6 +212,25 @@
 .center-content p {
     margin: 0;
     max-width: 600px; 
+}
+
+aside {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
 }
 
 section {
