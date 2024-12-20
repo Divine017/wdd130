@@ -11,11 +11,6 @@
 	box-sizing: border-box;
 }
 
-.body {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .homepage {
     background-color: #d7d0d079;
     font-family: "Josefin Sans", serif, sans-serif;
@@ -33,88 +28,11 @@
 	font-weight: bold;
 }
 
-.homepage aside {
-    position: absolute;
-    top: 55rem;
-    right: 6%;
-}
-
-.homepage aside button {
-    font-family: "Josefin Sans", serif;;
-    color: #ffffff;
-    background-color: #f17a12b9;
-    border: 2px double #000000;
-    height: 40px;
-    width: 10rem;
-}
-
 .homepage banner {
     background-color: #fff;
     max-width: 100%;
     margin: auto;
     overflow: hidden;
-}
-
-.banner-1 {
-    font-family: "Roboto", serif;
-    font-weight: 500;
-    color: var(--accent-color-1);
-    float: left;
-    width: 250px;
-    margin: 1rem;
-    text-align: center;
-}
-
-.banner-1 .p-1, .p-2, .p-3 {
-    margin-left: 12rem;
-    width: 17rem;
-}
-
-.banner-1 img {
-    width: 250px;
-    height: 250px;
-    border: 3px solid #2a1b5eb8;
-    border-radius: 5rem; 
-    margin-left: 12rem;
-}
-
-.homepage history img {
-    margin: 2rem 2rem 1rem;
-    
-}
-
-.history-aside {
-    background-color: #f0f41096;
-    border: 5px double #291B5E;
-    position: absolute;
-    top: 86rem;
-    float: right;
-    right: 50px;
-    width: 40rem;
-    padding: 0.5rem;
-    height: 15rem;
-}
-
-.history-aside h2 {
-    font-family: "Josefin Sans", serif;
-    color: #291B5E;
-    margin: 1rem 3rem 1rem;
-}
-
-.history-aside p {
-    font-family: "Roboto", serif;
-    color: black;
-    font-weight: 600;
-    margin: 0rem 3rem 1rem;
-}
-
-.history-aside button {
-    font-family: "Josefin Sans", serif;;
-    color: #ffffff;
-    background-color: var(--secondary-color);
-    margin: 0 3rem 1rem;
-    height: 40px;
-    width: 10rem;
 }
 
 .header-container {
@@ -214,14 +132,15 @@
     max-width: 600px; 
 }
 
-aside {
+.homepage-aside {
     position: absolute;
     bottom: 20px;
     right: 20px;
 }
 
-button {
+.homepage-aside button {
     padding: 10px 20px;
+	font-family: "Josefin Sans", serif;
     background-color: #6a5acd;
     color: white;
     border: none;
@@ -229,17 +148,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.homepage-aside button:hover {
     background-color: var(--secondary-color);
 }
 
-section {
+.contact-form, .company-info, .adventure {
 	font-family: "Roboto", serif;
 	font-weight: 500;
 	text-align: center;
 	background-color: var(--background-color);
-	margin: 0 20px 30px;
-	padding: 1rem;
+	padding: .5rem;
 }
 
 section h2 {
@@ -248,7 +166,7 @@ section h2 {
 	text-align: center;
 }
 
-.history p {
+.about-history p {
 	font-family: "Roboto", serif;
 	font-weight: 500;
 	text-align: center;
@@ -257,26 +175,26 @@ section h2 {
 	padding: 1rem;
 }
 
-.image-container {
+.about-container {
 	width: 100%;
 	max-width: 1150px;
 	overflow: hidden;
 	margin:auto; 
 }
 
-.image-item {
+.about-item {
 	float: left;
 	width: 250px;
 	margin: 1rem;
 	text-align: center;
 }
 
-.image-item img {
+.about-item img {
 	width: 250px;
 	height: 200px;
 }
 
-.image-container p {
+.about-container p {
 	font-family: "Roboto", serif;
 	color: #291B5E;
 	font-weight: 500;
@@ -287,6 +205,7 @@ iframe {
 	border: none;
 	width: 100%;
 	height: 450px;
+	padding: .5rem;
 }
 
 .employee-profiles {
@@ -301,7 +220,7 @@ iframe {
     font-size: 2em;
 }
 
-.employee-container {
+.employee-container, .homepage banner {
     display: flex;
     justify-content: center;
 	flex-wrap: wrap;
@@ -309,7 +228,7 @@ iframe {
     margin-bottom: 20px; 
 }
 
-.employee {
+.employee, .banner-1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -317,6 +236,7 @@ iframe {
 
 .employee figure {
     margin: 0 10px;
+	font-family: "Roboto", serif;
     text-align: center;
 }
 
@@ -325,6 +245,59 @@ iframe {
     height: auto;
     border-radius: 50%; 
 }
+
+.banner-1 img {
+	width: 150px;
+    height: auto;
+}
+
+.homepage-history {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    gap: 20px; /* Space between the image and text */
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1; /* Allow the image to take up necessary space */
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+}
+
+.history-aside {
+    flex: 2; /* Allow the text container to take up more space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the text content vertically */
+    height: 100%;
+}
+
+.history-aside h2 {
+    margin: 0 0 10px 0; /* Margin for spacing */
+}
+
+.history-aside p {
+    flex-grow: 1; /* Ensure the paragraph takes up remaining space */
+    margin: 0 0 20px 0; /* Margin for spacing */
+}
+
+.history-aside button {
+    align-self: center; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #6a5acd; /* Purple button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.history-aside button:hover {
+    background-color: #483d8b; /* Darker purple for hover effect */
+}
+
 
 .employee figcaption {
     margin-top: 10px;
@@ -375,7 +348,7 @@ footer {
 	font-family: "Josefin Sans", serif;
 	background-color: #d7d0d0;
 	text-align: center;
-	margin: 0;
+	margin: .5rem;
 	padding: 10px;
 	width: 100%;
 }
