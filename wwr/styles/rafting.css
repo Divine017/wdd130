@@ -265,10 +265,10 @@ iframe {
 }
 
 .banner-1 p {
-    margin-top: 10px; /* Space between image and text */
+    margin-top: 10px;
+	font-family: "Josefin Sans", serif;
     font-weight: bold;
 }
-
 
 .homepage-history {
     display: flex;
