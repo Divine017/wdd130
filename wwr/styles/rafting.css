@@ -298,7 +298,9 @@ iframe {
     padding: 20px; 
     background-color: var(--background-color); 
     border: 2px double #000; 
+    border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-right: 1rem;
 } 
 
 .history-aside { 
@@ -310,6 +312,7 @@ iframe {
 } 
 
 .history-aside p { 
+    font-family: "Roboto", serif;
     margin-bottom: 20px; 
 } 
 
