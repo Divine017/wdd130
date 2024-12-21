@@ -302,14 +302,14 @@ iframe {
 }
 
 .history-aside p {
-    flex-grow: 1; /* Ensure the paragraph takes up remaining space */
-    margin: 0 0 20px 0; /* Margin for spacing */
+    flex-grow: 1; 
+    margin: 0 0 20px 0; 
 }
 
 .history-aside button {
-    align-self: center; /* Center the button horizontally */
+    align-self: center; 
     padding: 10px 20px;
-    background-color: #6a5acd; /* Purple button background */
+    background-color: #6a5acd; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -317,7 +317,7 @@ iframe {
 }
 
 .history-aside button:hover {
-    background-color: #483d8b; /* Darker purple for hover effect */
+    background-color: #483d8b; 
 }
 
 
