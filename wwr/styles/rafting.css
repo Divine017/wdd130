@@ -285,17 +285,16 @@ iframe {
     height: 150px;
 }
 
-.history-asd {
-	background-color: var(--background-color);
-	border: 2px double black;
-	border-radius: 1rem;
-}
-
 .history-aside {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    background-color: var(--background-color);
+	border: 2px double black;
+	border-radius: 1rem;
+    height: 100px;
+    font-size: smaller;
 }
 
 .history-aside h2 {
