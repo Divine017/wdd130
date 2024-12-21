@@ -275,7 +275,8 @@ iframe {
     align-items: center; 
     justify-content: center; 
     height: 100vh; 
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
+    margin: .5rem; 
 } 
 
 .image-container { 
@@ -284,6 +285,7 @@ iframe {
     display: flex; 
     align-items: center; 
     justify-content: center; 
+    margin-left: 1rem;
 } 
 
 .image-container img { 
@@ -291,7 +293,7 @@ iframe {
     height: 200%; 
 } 
 
-aside { 
+.history-asd { 
     width: 40%; 
     padding: 20px; 
     background-color: var(--background-color); 
