@@ -273,31 +273,30 @@ iframe {
 .homepage-history {
     position: relative;
     display: flex;
-    align-items: center; /* Vertically center the items */
+    align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: var(#ccc);
 }
 
 .image-container {
-    flex: 3; /* Make the image container take up more space */
+    flex: 1;
 }
 
 .image-container img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
 .history-aside {
     position: absolute;
-    right: 0; /* Align to the right side of the container */
-    top: 50%; /* Center vertically */
-    transform: translate(20%, -50%); /* Move 20% left and center vertically */
-    width: 35%; /* Adjust the width as needed */
+    right: 0;
+    top: 50%;     transform: translate(20%, -50%);
+    width: 35%;
     background-color: white;
     padding: 20px;
-    border-radius: 5px; /* Optional: Rounded corners for a softer look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
