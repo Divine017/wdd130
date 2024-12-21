@@ -275,7 +275,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
+    height: 80vh;
     background-color: var(#ccc);
     margin: 1rem;
 }
@@ -291,12 +291,13 @@ iframe {
 
 .history-aside {
     position: absolute;
-    right: 10%;
+    right: 1%;
     top: 50%;
     transform: translateY(-50%);
-    width: 35%;
-    background-color: white;
+    width: 45%;
+    background-color: var(--background-color);
     padding: 20px;
+    border: 2px double black;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
