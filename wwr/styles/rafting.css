@@ -313,7 +313,7 @@ iframe {
     margin-bottom: 20px; 
 } 
 
-.history-aside button { 
+.history-aside button {
     padding: 10px 20px; 
     background-color: #007BFF; 
     color: white; 
@@ -390,4 +390,9 @@ footer {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 1rem;
+}
+
+.history-asd a, .homepage-aside a {
+    color: #000;
+    text-decoration: none;
 }
