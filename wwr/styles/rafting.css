@@ -138,18 +138,18 @@
     right: 20px;
 }
 
-.homepage-aside button {
+.homepage-aside button, .history-aside button {
     padding: 10px 20px;
 	font-family: "Josefin Sans", serif;
-    background-color: #6a5acd;
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.homepage-aside button:hover {
-    background-color: var(--secondary-color);
+.homepage-aside button:hover, .history-aside button:hover, .contact-form button:hover {
+    background-color: darkgreen;
 }
 
 .contact-form, .company-info, .adventure {
@@ -311,17 +311,6 @@ iframe {
     margin-bottom: 20px;
 }
 
-.history-aside button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    border: none;
-    cursor: pointer;
-}
-
-.history-aside button:hover {
-    background-color: darkgreen;
-}
-
 .employee figcaption {
     margin-top: 10px;
 	color: #007BFF;
@@ -360,10 +349,6 @@ iframe {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-}
-
-.contact-form button:hover {
-	background-color: green;
 }
 
 footer {
