@@ -138,7 +138,7 @@
     right: 20px;
 }
 
-.homepage-aside button, .history-aside button, .newsletter button {
+.newsletter button, .contact-form button {
     padding: 10px 20px;
 	font-family: "Josefin Sans", serif;
     background-color: #007BFF;
@@ -341,17 +341,6 @@ iframe {
 	border-radius: 4px;
 }
 
-.contact-form button {
-	padding: 10px;
-	margin: 0 0 1rem;
-	background-color: #007BFF;
-	color: #d7d0d0;
-	font-weight: 600;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
 .newsletter h2 {
     font-family: "Josefin Sans", serif;
 	color: var(--accent-color-1);
@@ -387,7 +376,7 @@ iframe {
     border-radius: 5px;
 }
 
-.call-to-action {
+.call-to-action, .history-aside {
     font-family: "Roboto" sans-serif;
     text-align: center;
 }
@@ -396,11 +385,11 @@ iframe {
     font-family: "Roboto";
 }
 
-.call-to-action .cta-button {
+.call-to-action .cta-button, .history-aside .button, .homepage-aside .button {
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #007BFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -456,9 +445,4 @@ footer {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 1rem;
-}
-
-.history-asd a, .homepage-aside a {
-    color: #000;
-    text-decoration: none;
 }
