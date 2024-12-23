@@ -148,7 +148,7 @@
     cursor: pointer;
 }
 
-.homepage-aside button:hover, .history-aside button:hover, .contact-form button:hover {
+.homepage-aside button:hover, .history-aside button:hover, .contact-form button:hover, .call-to-action .cta-button:hover {
     background-color: darkgreen;
 }
 
@@ -264,7 +264,7 @@ iframe {
     height: 200px;
 }
 
-.banner-1 p {
+.banner-1 {
     margin-top: 10px;
 	font-family: "Josefin Sans", serif;
     font-weight: bold;
@@ -351,13 +351,13 @@ iframe {
 	cursor: pointer;
 }
 
-/*body {
+/* body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-}*/
+}
 
 .newsletter h2 {
     font-family: "Josefin Sans", serif;
@@ -420,10 +420,6 @@ iframe {
     margin-top: 10px;
 }
 
-.call-to-action .cta-button:hover {
-    background-color: #218838;
-}
-
 .site-info .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -446,7 +442,7 @@ iframe {
 
 .site-info .grid-item p {
     margin-top: 10px;
-}
+} */
 
 	
 footer {
