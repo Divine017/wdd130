@@ -106,7 +106,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex: 1;
 	width: 100%;
 }
@@ -138,7 +138,7 @@
     right: 20px;
 }
 
-.homepage-aside button, .history-aside button {
+.homepage-aside button, .history-aside button, .newsletter button {
     padding: 10px 20px;
 	font-family: "Josefin Sans", serif;
     background-color: #007BFF;
@@ -148,7 +148,7 @@
     cursor: pointer;
 }
 
-.homepage-aside button:hover, .history-aside button:hover, .contact-form button:hover, .call-to-action .cta-button:hover {
+.homepage-aside button:hover, .history-aside button:hover, .contact-form button:hover, .newsletter button:hover {
     background-color: darkgreen;
 }
 
@@ -352,14 +352,6 @@ iframe {
 	cursor: pointer;
 }
 
-/* body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
 .newsletter h2 {
     font-family: "Josefin Sans", serif;
 	color: var(--accent-color-1);
@@ -369,7 +361,7 @@ iframe {
 
 .newsletter {
     padding: 20px;
-    background: #fff;
+    background: var(--background-color);
     margin: 20px auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -379,6 +371,7 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .newsletter form label {
@@ -390,28 +383,21 @@ iframe {
     margin-bottom: 10px;
     width: 100%;
     max-width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #291B5E;
     border-radius: 5px;
-}
-
-.newsletter form button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.newsletter form button:hover {
-    background-color: #0056b3;
 }
 
 .call-to-action {
+    font-family: "Roboto" sans-serif;
     text-align: center;
 }
 
+.call-to-action p, .site-info p {
+    font-family: "Roboto";
+}
+
 .call-to-action .cta-button {
+    font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     padding: 10px 20px;
     background-color: #28a745;
@@ -421,14 +407,18 @@ iframe {
     margin-top: 10px;
 }
 
+.site-info {
+    border-top: 2px double #291B5E;
+    margin-top: 1rem;
+}
+
 .site-info .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    background: var(--background-color);
 }
 
 .site-info .grid-item {
-    background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -443,9 +433,8 @@ iframe {
 
 .site-info .grid-item p {
     margin-top: 10px;
-} */
+}
 
-	
 footer {
 	font-family: "Josefin Sans", serif;
 	background-color: #d7d0d0;
