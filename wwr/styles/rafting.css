@@ -148,6 +148,10 @@
     cursor: pointer;
 }
 
+.newsletter button:hover, .contact-form button:hover {
+    background-color: darkgreen;
+}
+
 .contact-form, .company-info, .adventure {
 	font-family: "Roboto", serif;
 	font-weight: 500;
