@@ -89,6 +89,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 	font-family: "Josefin Sans", serif;
     color: white;
     text-align: center;
@@ -96,7 +97,7 @@
 
 .overlay-h1 {
     font-size: 2em;
-    margin: .5em;
+    margin: .5em 0 2em;
     padding: 15px;
 	width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -104,11 +105,12 @@
 
 .center-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     justify-content: center;
     align-items: flex-start;
     flex: 1;
 	width: 100%;
+    margin-top: 2em;
 }
 
 .center-content article {
@@ -325,7 +327,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-.history-aside .button {
+.history-aside .button, .homepage-aside .button, .call-to-action .cta-button {
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     padding: 10px 20px;
@@ -337,7 +339,7 @@ iframe {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.history-aside .button:hover {
+.history-aside .button:hover, .homepage-aside .button:hover, .call-to-action .cta-button:hover {
     background-color: darkgreen;
     transform: scale(1.05);
 }
@@ -413,17 +415,6 @@ iframe {
 
 .call-to-action p, .site-info p {
     font-family: "Roboto";
-}
-
-.call-to-action .cta-button, .homepage-aside .button {
-    font-family: "Josefin Sans", sans-serif;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
 }
 
 .site-info {
