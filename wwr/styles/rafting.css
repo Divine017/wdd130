@@ -71,55 +71,6 @@
     color: tomato;
 }
 
-/*
-
-.overlay-h1 {
-    font-size: 2em;
-    margin: .5em 0 2em;
-    padding: 15px;
-	width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.center-content {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: flex-start;
-    flex: 1;
-	width: 100%;
-    margin-top: 2em;
-}
-
-.center-content article {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-	
-    background-color: rgba(0, 0, 0, 0.5);
-    max-width: 800px;
-    margin: 1em 0; 
-}
-
-.center-content img {
-    order: 2;
-    margin-left: 20px; 
-    width: 150px; 
-    height: 100px;
-}
-
-.center-content p {
-    margin: 0;
-    max-width: 600px; 
-}
-
-.homepage-aside {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-} */
-
 .hero {
     position: relative;
 }
@@ -146,7 +97,7 @@
 
 .overlay-h1 {
     font-size: 2em;
-    margin: 0.5em 0; /* Equal margin on top and bottom */
+    margin: 0.5em 0;
     padding: 15px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -160,22 +111,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 3em;
 }
 
 .center-content article {
     display: flex;
-    flex-direction: row; /* Align items in a row */
+    flex-direction: row; 
     align-items: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     max-width: 800px;
-    align-self: center;
-    margin: auto 0; /* Add margin for spacing above and below */
+    margin: auto;
 }
 
 .center-content img {
-    order: 2; /* Move the image to the right */
-    margin-left: 20px; /* Add margin to the left of the image */
+    order: 2; 
+    margin-left: 20px; 
     width: 100px; 
     height: 100px;
 }
@@ -190,45 +141,6 @@
     bottom: 20px;
     right: 20px;
 }
-
-/* Media Queries for Responsive Design 
-@media (max-width: 768px) {
-    .overlay-h1 {
-        font-size: 1.5em; 
-    }
-
-    .center-content article {
-        padding: 10px;
-        max-width: 90%;
-    }
-
-    .center-content img {
-        width: 80px; 
-        height: 80px;
-    }
-
-    .homepage-aside {
-        right: 50%;
-        transform: translateX(50%); 
-    }
-}
-
-@media (max-width: 480px) {
-    .center-content article {
-        padding: 10px;
-        max-width: 90%;
-    }
-
-    .center-content img {
-        width: 80px; 
-        height: 80px;
-    }
-
-    .overlay-h1 {
-        font-size: 1.2em;
-        padding: 10px;
-    }
-}*/
 
 .newsletter button, .contact-form button {
     padding: 10px 20px;
