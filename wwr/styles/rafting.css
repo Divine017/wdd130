@@ -334,7 +334,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-.history-aside .button, .homepage-aside .button, .call-to-action .cta-button {
+.history-aside .button, .homepage-aside .button, .call-to-action .cta-button, .trips .cta-button {
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     padding: 10px 20px;
@@ -346,7 +346,7 @@ iframe {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.history-aside .button:hover, .homepage-aside .button:hover, .call-to-action .cta-button:hover {
+.history-aside .button:hover, .homepage-aside .button:hover, .call-to-action .cta-button:hover, .trips .cta-button:hover {
     background-color: darkgreen;
     transform: scale(1.05);
 }
@@ -450,6 +450,10 @@ iframe {
 
 .site-info .grid-item p {
     margin-top: 10px;
+}
+
+.trips-table {
+    
 }
 
 footer {
