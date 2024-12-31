@@ -415,7 +415,7 @@ iframe {
     border-radius: 5px;
 }
 
-.call-to-action, .history-aside {
+.call-to-action, .history-aside, .trip-call-to-action p {
     font-family: "Roboto" sans-serif;
     text-align: center;
 }
@@ -481,7 +481,7 @@ iframe {
 .trip img {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
