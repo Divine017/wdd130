@@ -334,7 +334,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-.history-aside .button, .homepage-aside .button, .call-to-action .cta-button, .trips .cta-button {
+.history-aside .button, .homepage-aside .button, .call-to-action .cta-button, .trip-call-to-action .cta-button {
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
     padding: 10px 20px;
@@ -346,7 +346,7 @@ iframe {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.history-aside .button:hover, .homepage-aside .button:hover, .call-to-action .cta-button:hover, .trips .cta-button:hover {
+.history-aside .button:hover, .homepage-aside .button:hover, .call-to-action .cta-button:hover, .trip-call-to-action .cta-button:hover {
     background-color: darkgreen;
     transform: scale(1.05);
 }
@@ -452,9 +452,58 @@ iframe {
     margin-top: 10px;
 }
 
-.trips-table {
-    
+.trips-descriptions {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.trips-descriptions h2 {
+    margin-bottom: 20px;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-info {
+    padding: 10px;
+}
+
+.trip-info h3 {
+    margin-bottom: 10px;
+}
+
+.trips-table {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 footer {
 	font-family: "Josefin Sans", serif;
