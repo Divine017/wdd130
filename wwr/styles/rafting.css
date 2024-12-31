@@ -491,6 +491,14 @@ iframe {
 }
 
 .trip-info h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-shadow: 
+    .5px .5px 0 black,
+    -.5px -.5px 0 black,
+    -.5px .5px 0 black,
+    1px -1px 0 black;
     margin-bottom: 10px;
 }
 
@@ -503,7 +511,28 @@ iframe {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.trips-table table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
 
+.trips-table th, .trips-table td {
+    border: 2px solid #0b0000dd;
+    padding: 8px;
+}
+
+.trips-table th {
+    font-family: "josefin Sans", sans-serif;
+    color: aliceblue;
+    background-color: var(--accent-color-2);
+}
+
+.trips-table td, .trip-info p {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-weight: 500;
+}
 
 footer {
 	font-family: "Josefin Sans", serif;
