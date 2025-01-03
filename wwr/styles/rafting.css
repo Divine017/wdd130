@@ -329,7 +329,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-.history-aside p, .banner-item p {
+.history-aside p, .banner-item p, .trip-call-to-action p {
     font-family: "Roboto", sans-serif;
     margin-bottom: 20px;
 }
@@ -463,6 +463,10 @@ iframe {
 
 .trips-descriptions h2 {
     margin-bottom: 20px;
+}
+
+.trip-call-to-action {
+    text-align: center;
 }
 
 .trips-grid {
